@@ -1,0 +1,15 @@
+c:\Users\Client\Desktop\stream\backend\node_modules\helmet\index.cjs:38
+		if (!Object.hasOwn(rawDirectives, rawDirectiveName)) {
+		            ^
+
+TypeError: Object.hasOwn is not a function
+    at normalizeDirectives (c:\Users\Client\Desktop\stream\backend\node_modules\helmet\index.cjs:38:15)
+    at contentSecurityPolicy (c:\Users\Client\Desktop\stream\backend\node_modules\helmet\index.cjs:117:31)
+    at getMiddlewareFunctionsFromOptions (c:\Users\Client\Desktop\stream\backend\node_modules\helmet\index.cjs:320:16)
+    at helmet (c:\Users\Client\Desktop\stream\backend\node_modules\helmet\index.cjs:518:31)
+    at Object.<anonymous> (c:\Users\Client\Desktop\stream\backend\src\app.js:21:9)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)

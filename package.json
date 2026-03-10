@@ -1,0 +1,29 @@
+{
+  "name": "streamquest-backend",
+  "version": "1.0.0",
+  "description": "StreamQuest API - gamified Java Stream practice platform",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node scripts/run-backend.js dev",
+    "start": "node scripts/run-backend.js start",
+    "seed": "node scripts/run-backend.js seed",
+    "verify:problems": "node scripts/run-backend.js verify-problems"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

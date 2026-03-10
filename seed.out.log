@@ -1,0 +1,6 @@
+
+> streamquest-backend@1.0.0 seed
+> node scripts/run-backend.js seed
+
+Using Node from NVM: C:\Users\Client\AppData\Local\nvm\v20.11.1\node.exe
+Seed complete: { problemCount: 500, dailyChallengeLevel: 70 }

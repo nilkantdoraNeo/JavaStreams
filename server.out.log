@@ -1,0 +1,51 @@
+
+> streamquest-backend@1.0.0 dev C:\Users\Client\Desktop\stream\backend
+> node scripts/run-backend.js dev
+
+Using Node from NVM: C:\Users\Client\AppData\Local\nvm\v20.11.1\node.exe
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[0mGET /api/auth/config [36m304[0m 5.923 ms - -[0m
+[0mGET /api/auth/config [32m200[0m 2.599 ms - 287[0m
+[0mGET /api/auth/config [36m304[0m 1.033 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 1845.520 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 401.249 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1547.874 ms - -[0m
+[0mGET /api/problems?solved=solved&page=1&pageSize=500 [36m304[0m 1640.161 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 2455.041 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 2561.754 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 399.071 ms - -[0m
+[0mGET /api/game/daily-challenge [36m304[0m 401.851 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 586.788 ms - -[0m
+[0mGET /api/problems?sort=recommended&page=1&pageSize=10 [36m304[0m 401.006 ms - -[0m
+[0mGET /api/problems/1 [36m304[0m 993.273 ms - -[0m
+[0mGET /api/submissions/me [36m304[0m 431.811 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 409.363 ms - -[0m
+[0mGET /api/game/leaderboard?limit=50&scope=global [36m304[0m 412.040 ms - -[0m
+[0mGET /api/game/insights [36m304[0m 845.423 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 1454.787 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 461.943 ms - -[0m
+[0mGET /api/game/daily-challenge [36m304[0m 637.483 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 657.427 ms - -[0m
+[0mGET /api/problems?sort=recommended&page=1&pageSize=10 [36m304[0m 449.144 ms - -[0m
+[0mGET /api/problems/2 [32m200[0m 1324.350 ms - 1283[0m
+[0mGET /api/submissions/me [36m304[0m 351.654 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 465.848 ms - -[0m
+[0mGET /api/game/daily-challenge [36m304[0m 469.408 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 670.947 ms - -[0m
+[0mGET /api/problems?sort=recommended&page=1&pageSize=10 [36m304[0m 412.823 ms - -[0m
+[0mGET /api/problems/3 [32m200[0m 2774.617 ms - 1658[0m
+[0mGET /api/submissions/me [36m304[0m 374.616 ms - -[0m
+[0mPOST /api/submissions/run [32m200[0m 3454.700 ms - 204[0m
+[0mPOST /api/submissions/submit [32m200[0m 5371.485 ms - 306[0m
+[0mGET /api/submissions/me [32m200[0m 409.824 ms - 296[0m
+[0mGET /api/problems/categories [36m304[0m 2112.177 ms - -[0m
+[0mGET /api/problems/paths [32m200[0m 2271.595 ms - 4947[0m
+[0mGET /api/game/daily-challenge [36m304[0m 2269.833 ms - -[0m
+[0mGET /api/problems?sort=recommended&page=1&pageSize=10 [32m200[0m 781.811 ms - 2230[0m
+[0mGET /api/problems?difficulty=Beginner&sort=recommended&page=1&pageSize=10 [32m200[0m 2915.965 ms - 2204[0m
+[0mGET /api/problems?difficulty=Advanced&sort=recommended&page=1&pageSize=10 [32m200[0m 1762.235 ms - 2254[0m

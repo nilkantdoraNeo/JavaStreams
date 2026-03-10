@@ -1,0 +1,225 @@
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\Client\Desktop\stream\backend\node_modules\express\lib\application.js:635:24)
+    at bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:55:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v20.11.1
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\Client\Desktop\stream\backend\node_modules\express\lib\application.js:635:24)
+    at bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:55:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v20.11.1
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\Client\Desktop\stream\backend\node_modules\express\lib\application.js:635:24)
+    at bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:55:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v20.11.1
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\Client\Desktop\stream\backend\node_modules\express\lib\application.js:635:24)
+    at bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:55:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v20.11.1
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\Client\Desktop\stream\backend\node_modules\express\lib\application.js:635:24)
+    at bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:55:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v20.11.1
+Failed to bootstrap API: Error
+    at Query.run (C:\Users\Client\Desktop\stream\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Client\Desktop\stream\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.rawSelect (C:\Users\Client\Desktop\stream\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Problem.aggregate (C:\Users\Client\Desktop\stream\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Problem.count (C:\Users\Client\Desktop\stream\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async bootstrap (C:\Users\Client\Desktop\stream\backend\src\server.js:37:44) {
+  name: 'SequelizeDatabaseError',
+  parent: error: canceling statement due to statement timeout
+      at parseErrorMessage (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:305:11)
+      at Parser.handlePacket (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\index.js:11:42)
+      at TLSSocket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 109,
+    severity: 'ERROR',
+    code: '57014',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postgres.c',
+    line: '3405',
+    routine: 'ProcessInterrupts',
+    sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+    parameters: undefined
+  },
+  original: error: canceling statement due to statement timeout
+      at parseErrorMessage (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:305:11)
+      at Parser.handlePacket (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\index.js:11:42)
+      at TLSSocket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 109,
+    severity: 'ERROR',
+    code: '57014',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postgres.c',
+    line: '3405',
+    routine: 'ProcessInterrupts',
+    sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+    parameters: undefined
+  },
+  sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+  parameters: {}
+}
+umn: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postgres.c',
+    line: '3405',
+    routine: 'ProcessInterrupts',
+    sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+    parameters: undefined
+  },
+  original: error: canceling statement due to statement timeout
+      at parseErrorMessage (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:305:11)
+      at Parser.handlePacket (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\Users\Client\Desktop\stream\backend\node_modules\pg-protocol\dist\index.js:11:42)
+      at TLSSocket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 109,
+    severity: 'ERROR',
+    code: '57014',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postgres.c',
+    line: '3405',
+    routine: 'ProcessInterrupts',
+    sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+    parameters: undefined
+  },
+  sql: 'SELECT count(*) AS "count" FROM "problems" AS "Problem";',
+  parameters: {}
+}

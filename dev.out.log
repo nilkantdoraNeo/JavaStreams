@@ -1,0 +1,174 @@
+
+> streamquest-backend@1.0.0 dev
+> node scripts/run-backend.js dev
+
+Using Node from NVM: C:\Users\Client\AppData\Local\nvm\v20.11.1\node.exe
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[0mGET /api/auth/config [36m304[0m 3.964 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.643 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 2282.597 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 2264.777 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1579.510 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1749.253 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1848.377 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1919.158 ms - -[0m
+[0mGET /api/game/profile [32m200[0m 2507.717 ms - 227[0m
+[0mGET /api/game/profile [32m200[0m 2518.796 ms - 227[0m
+[0mGET /api/game/dashboard [36m304[0m 2633.904 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 3136.576 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.997 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.969 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 621.501 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 592.230 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 595.790 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 698.656 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 954.858 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1108.290 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 1782.983 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 1983.586 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 1980.140 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 2453.137 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.452 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 4063.903 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1493.486 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1850.767 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 2726.739 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 2759.616 ms - -[0m
+[0mGET /api/problems/categories [32m200[0m 2086.091 ms - 2[0m
+[0mGET /api/problems/paths [32m200[0m 2151.867 ms - 1397[0m
+[0mGET /api/game/daily-challenge [36m304[0m 2259.334 ms - -[0m
+[0mGET /api/problems?sort=recommended [32m200[0m 546.468 ms - 2[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 583.338 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 791.241 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 1728.623 ms[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[0mGET /api/game/daily-challenge [0m-[0m - ms - -[0m
+[0mGET /api/problems/paths [0m-[0m - ms - -[0m
+[0mGET /api/problems/categories [0m-[0m - ms - -[0m
+[0mGET /api/auth/config [32m200[0m 4.124 ms - 287[0m
+[0mGET /api/auth/me [36m304[0m 893.057 ms - -[0m
+[0mGET /api/problems/paths [32m200[0m 615.338 ms - 4919[0m
+[0mGET /api/problems/categories [32m200[0m 637.386 ms - 444[0m
+[0mGET /api/game/daily-challenge [32m200[0m 697.178 ms - 4[0m
+[0mGET /api/problems?sort=recommended [32m200[0m 1850.326 ms - 112688[0m
+[0mGET /api/problems/6 [32m200[0m 3311.228 ms - 1294[0m
+[0mGET /api/submissions/me [32m200[0m 567.337 ms - 2[0m
+[0mGET /api/problems/6/hints/1 [32m200[0m 2602.656 ms - 104[0m
+[0mGET /api/problems/6/hints/2 [32m200[0m 1331.009 ms - 104[0m
+[0mGET /api/problems/6/hints/3 [32m200[0m 1707.738 ms - 159[0m
+[0mGET /api/problems/6/editorial [33m403[0m 2156.330 ms - 57[0m
+[0mPOST /api/submissions/run [32m200[0m 1757.501 ms - 340[0m
+[0mGET /api/problems/6/editorial [33m403[0m 1134.613 ms - 57[0m
+[0mGET /api/submissions/me [36m304[0m 556.242 ms - -[0m
+[0mGET /api/community/problem/6 [32m200[0m 710.470 ms - 2[0m
+[0mGET /api/problems/6/editorial [33m403[0m 1094.629 ms - 57[0m
+[0mGET /api/problems/categories [36m304[0m 3304.219 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 3443.171 ms - -[0m
+[0mGET /api/game/daily-challenge [36m30[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[0mGET /api/auth/config [36m304[0m 2.843 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 2533.459 ms - -[0m
+[0mGET /api/problems/categories [31m500[0m 120566.271 ms - 58[0m
+[0mGET /api/problems/paths [31m500[0m 122089.689 ms - 58[0m
+[0mGET /api/game/daily-challenge [31m500[0m 123535.128 ms - 58[0m
+[0mGET /api/problems?sort=recommended [0m-[0m - ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.479 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 3155.924 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 1.009 ms - -[0m
+[0mGET /api/problems/categories [0m-[0m - ms - -[0m
+[0mGET /api/game/daily-challenge [0m-[0m - ms - -[0m
+[0mGET /api/problems/paths [0m-[0m - ms - -[0m
+[0mGET /api/game/dashboard [0m-[0m - ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [0m-[0m - ms - -[0m
+[0mGET /api/problems?solved=solved [0m-[0m - ms - -[0m
+[0mGET /api/game/profile [0m-[0m - ms - -[0m
+[0mGET /api/auth/me [36m304[0m 55999.228 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+2m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+uth/config [36m304[0m 0.263 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.210 ms - -[0m
+[0mGET /api/auth/me [32m200[0m 2416.569 ms - 145[0m
+[0mGET /api/auth/me [36m304[0m 2197.203 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1080.973 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 1766.565 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1868.166 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 1944.985 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.300 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.335 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 3210.888 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 3281.454 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1209.018 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 1133.445 ms - -[0m
+[0mGET /api/game/daily-challenge [36m304[0m 1289.283 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 1857.543 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 2417.908 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 2504.068 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 2676.593 ms - -[0m
+[0mGET /api/problems?sort=recommended [36m304[0m 1523.055 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.509 ms - -[0m
+[0mGET /api/auth/config [36m304[0m 0.350 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 2129.667 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 2153.730 ms - -[0m
+[0mGET /api/game/daily-challenge [36m304[0m 1709.212 ms - -[0m
+[0mGET /api/problems/categories [36m304[0m 1908.360 ms - -[0m
+[0mGET /api/problems?solved=solved [36m304[0m 1960.172 ms - -[0m
+[0mGET /api/problems/paths [36m304[0m 1947.067 ms - -[0m
+[0mGET /api/game/leaderboard?limit=200&scope=global [36m304[0m 1976.514 ms - -[0m
+[0mGET /api/game/profile [36m304[0m 2465.067 ms - -[0m
+[0mGET /api/game/dashboard [36m304[0m 2790.926 ms - -[0m
+[0mGET /api/problems?sort=recommended [36m304[0m 1618.826 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+StreamQuest API running on port 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
