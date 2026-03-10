@@ -1,7 +1,25 @@
+const fs = require("fs");
 const path = require("path");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+function resolveEnvPath() {
+  const explicit = (process.env.ENV_FILE || "").trim();
+  if (explicit) {
+    return path.resolve(explicit);
+  }
+
+  const renderSecret = "/etc/secrets/.env";
+  if (fs.existsSync(renderSecret)) {
+    return renderSecret;
+  }
+
+  return path.resolve(process.cwd(), ".env");
+}
+
+const envPath = resolveEnvPath();
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
+}
 
 function asNumber(value, fallback) {
   const parsed = Number(value);
