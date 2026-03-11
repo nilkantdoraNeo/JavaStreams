@@ -2,22 +2,31 @@ const fs = require("fs");
 const path = require("path");
 const dotenv = require("dotenv");
 
+function firstExistingPath(paths) {
+  for (const candidate of paths) {
+    if (candidate && fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
 function resolveEnvPath() {
   const explicit = (process.env.ENV_FILE || "").trim();
   if (explicit) {
     return path.resolve(explicit);
   }
 
-  const renderSecret = "/etc/secrets/.env";
-  if (fs.existsSync(renderSecret)) {
-    return renderSecret;
-  }
-
-  return path.resolve(process.cwd(), ".env");
+  return firstExistingPath([
+    "/etc/secrets/.env",
+    "/etc/secrets/.env.render",
+    path.resolve(process.cwd(), ".env"),
+    path.resolve(process.cwd(), ".env.render")
+  ]);
 }
 
 const envPath = resolveEnvPath();
-if (fs.existsSync(envPath)) {
+if (envPath) {
   dotenv.config({ path: envPath });
 }
 
@@ -90,6 +99,9 @@ module.exports = {
     url: (process.env.SUPABASE_URL || "https://baqibpndwbfqlklsgsyl.supabase.co").trim(),
     anonKey: (process.env.SUPABASE_ANON_KEY || "").trim(),
     serviceRoleKey: (process.env.SUPABASE_SERVICE_ROLE_KEY || "").trim()
+  },
+  storage: {
+    bucket: (process.env.SUPABASE_STORAGE_BUCKET || "avatars").trim()
   },
   db: {
     url: resolveDatabaseUrl(),

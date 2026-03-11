@@ -45,6 +45,21 @@ router.patch("/profile", async (req, res, next) => {
   }
 });
 
+router.post("/profile/avatar", async (req, res, next) => {
+  try {
+    const { dataUrl } = req.body || {};
+    if (!dataUrl) {
+      const error = new Error("Avatar file is required.");
+      error.status = 400;
+      throw error;
+    }
+    const data = await gameService.updateAvatar(req.user.id, dataUrl);
+    res.json(data);
+  } catch (error) {
+    next(error);
+  }
+});
+
 router.get("/daily-challenge", async (req, res, next) => {
   try {
     const data = await gameService.getDailyChallenge(req.user.id);

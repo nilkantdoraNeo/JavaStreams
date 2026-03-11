@@ -1,5 +1,6 @@
 const { Op } = require("sequelize");
 const { User, UserProgress, Problem, UserAchievement, Achievement, Submission, Bookmark } = require("../model");
+const supabaseStorageService = require("./supabase-storage.service");
 
 function normalizeName(value) {
   const trimmed = String(value || "").trim().replace(/\s+/g, " ");
@@ -328,6 +329,29 @@ class GameService {
       email: user.email,
       phone: user.phone,
       avatar: user.avatar || null
+    };
+  }
+
+  async updateAvatar(userId, dataUrl) {
+    const user = await User.findByPk(userId);
+    if (!user) {
+      const error = new Error("User not found");
+      error.status = 404;
+      throw error;
+    }
+
+    const { publicUrl } = await supabaseStorageService.uploadAvatar(userId, dataUrl);
+    const previousAvatar = user.avatar;
+    user.avatar = publicUrl;
+    await user.save();
+
+    if (previousAvatar) {
+      await supabaseStorageService.removeAvatarByPublicUrl(previousAvatar);
+    }
+
+    return {
+      id: user.id,
+      avatar: user.avatar
     };
   }
 
